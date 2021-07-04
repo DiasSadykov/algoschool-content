@@ -1,0 +1,21 @@
+{
+  "problemSets": [
+    {
+      "category": "Basic",
+      "problems": [
+        {
+          "title": "A plus B",
+          "id": "a_plus_b",
+          "description": "<div> <p>Given two integers <code>a</code> and <code>b</code>, return <em>sum of two integers <code>a</code> and <code>b</code></em>.</p><br><p><strong>Example 1:</strong></p> <pre><strong>Input:</strong> a = 1, b = 2 <strong>Output:</strong> 3</pre>  <p><strong>Example 2:</strong></p> <pre><strong>Input:</strong> a = -1, b = 1 <strong>Output:</strong> 0</pre><p><strong>Example 3:</strong></p> <pre><strong>Input:</strong> a = 41, b = 1 <strong>Output:</strong> 42 </pre> <p> </p> <p><strong>Constraints:</strong></p> <ul> <li><code>-10<sup>9</sup> <= a <= 10<sup>9</sup></code></li> <li><code>-10<sup>9</sup> <= b <= 10<sup>9</sup></code></li> <li><strong>Only one valid answer exists.</strong></li> </ul> </div>",
+          "codeSnippet": "class Solution:\n\tdef a_plus_b(self, a: int, b: int) -> int:\n\t\t"
+        },
+        {
+          "title": "Two Sum",
+          "id": "two_sum",
+          "description": "<div><p>Given an array of integers <code>nums</code> and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p><p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p><p>You can return the answer in any order.</p><p> </p><p><strong>Example 1:</strong></p><pre><strong>Input:</strong> nums = [2,7,11,15], target = 9 <strong>Output:</strong> [0,1] <strong>Output:</strong> Because nums[0] + nums[1] == 9, we return [0, 1]. </pre><p><strong>Example 2:</strong></p><pre><strong>Input:</strong> nums = [3,2,4], target = 6 <strong>Output:</strong> [1,2] </pre><p><strong>Example 3:</strong></p><pre><strong>Input:</strong> nums = [3,3], target = 6 <strong>Output:</strong> [0,1] </pre><p> </p><p><strong>Constraints:</strong></p><ul><li><code>2 <= nums.length <= 10<sup>3</sup></code></li><li><code>-10<sup>9</sup> <= nums[i] <= 10<sup>9</sup></code></li><li><code>-10<sup>9</sup> <= target <= 10<sup>9</sup></code></li><li><strong>Only one valid answer exists.</strong></li></ul></div>",
+          "codeSnippet": "from typing import List\nclass Solution:\n\tdef two_sum(self, nums: List[int], target: int) -> List[int]:\n\t\t"
+        }
+      ]
+    }
+  ]
+}
